@@ -2,7 +2,7 @@
 
 ## Usage:
 ```
- ./currency_converter.py --amount <float> --input_currency <currency_code> [--output_currency {<currency_code>, <currency_symbol>} ] [date <DD/MM/YYYY>]
+ ./currency_converter.py --amount <float> --input_currency <currency_code> [--output_currency {<currency_code>, <currency_symbol>} ] [--date <DD/MM/YYYY>]
 ```
 ### Where:
 ```
