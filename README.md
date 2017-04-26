@@ -19,7 +19,7 @@
 - Input_currency parameter supports currency codes (USD, EUR...)
 - Output_currency parameter supports both currency codes and currency symbols
 - If currency symbol ($, £...) is used as output_currency, the input_currency is converted to all currency codes that share the currency symbol
-- If date argument is not used, the latest currency rates are downloaded 
+- If date argument is not used, the latest currency rates are downloaded/used 
 - Each time currency rates are downloaded, they are archived into .json file. When the program runs, it looks into this archive file first, if currency rates for that given (or latest) date are already archived. If yes, those currency rates are used, instead of being downloaded again
 - Result of conversion is saved into .json file
 
